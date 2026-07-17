@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+html,body{margin:0;padding:0;background:#363a41;}
+body{font-family:'Archivo',system-ui,sans-serif;color:#e9e7e0;}
+a{color:#e06a2b;text-decoration:none;}
+a:hover{color:#f08548;text-decoration:underline;}
+::selection{background:rgba(184,67,15,0.18);}
+</style>
+</helmet>
+<div data-screen-label="Weekly Exec Brief" style="min-height:100vh;background:#363a41;">
+  <div style="height:5px;background:#e06a2b;"></div>
+  <div style="max-width:1240px;margin:0 auto;padding:30px 32px 56px;display:flex;flex-direction:column;gap:0;">
+
+    <div style="display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:baseline;">
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:0.08em;color:#aeaa9e;">WEEKLY EXECUTIVE SUMMARY · WK 29 · JUL 13–17 2026</div>
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:0.08em;color:#aeaa9e;">PREPARED 07/16/26 · NEXT 07/23/26</div>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;align-items:flex-end;padding:18px 0 22px;">
+      <div style="display:flex;flex-direction:column;gap:6px;">
+        <h1 style="margin:0;font-size:44px;line-height:1;font-weight:800;letter-spacing:-0.02em;color:#e9e7e0;">TSC #3300 <span style="color:#e06a2b;">Raeford</span></h1>
+        <div style="font-size:14.5px;color:#aeaa9e;">752 Laurinburg Rd., Raeford, NC · Tractor Supply Company · ground-up retail</div>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px;border:2px solid #e9e7e0;padding:8px 16px;">
+        <div style="width:9px;height:9px;background:#e06a2b;"></div>
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:12.5px;font-weight:600;letter-spacing:0.1em;color:#e9e7e0;">PRE-CONSTRUCTION · AWARD PREP</div>
+      </div>
+    </div>
+    <div style="border-top:3px solid #e9e7e0;border-bottom:1px solid #e9e7e0;height:4px;"></div>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(185px,1fr));border-bottom:1px solid #4c515a;margin:0 -20px;">
+      <div style="padding:20px;border-right:1px solid #4c515a;display:flex;flex-direction:column;gap:7px;">
+        <div style="font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#aeaa9e;">Construction Start</div>
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:27px;font-weight:600;color:#e9e7e0;">08/24/26</div>
+        <div style="font-size:12.5px;color:#e06a2b;font-weight:600;">{{ daysToStart }} days out · holding</div>
+      </div>
+      <div style="padding:20px;border-right:1px solid #4c515a;display:flex;flex-direction:column;gap:7px;">
+        <div style="font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#aeaa9e;">Fixture / CO</div>
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:27px;font-weight:600;color:#e9e7e0;">04/04/27</div>
+        <div style="font-size:12.5px;color:#aeaa9e;">Tracked target</div>
+      </div>
+      <div style="padding:20px;border-right:1px solid #4c515a;display:flex;flex-direction:column;gap:7px;">
+        <div style="font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#aeaa9e;">Land Closing</div>
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:27px;font-weight:600;color:#e2604c;">TBD</div>
+        <div style="font-size:12.5px;color:#e2604c;font-weight:600;">Gating — see risks</div>
+      </div>
+      <div style="padding:20px;border-right:1px solid #4c515a;display:flex;flex-direction:column;gap:7px;">
+        <div style="font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#aeaa9e;">Building Permit</div>
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:27px;font-weight:600;color:#e8b04a;">REVIEW</div>
+        <div style="font-size:12.5px;color:#aeaa9e;">Weekly check · Hoke Co.</div>
+      </div>
+      <div style="padding:20px;border-right:1px solid #4c515a;display:flex;flex-direction:column;gap:7px;">
+        <div style="font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#aeaa9e;">Stormwater COC</div>
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:27px;font-weight:600;color:#6fbf8c;">ISSUED</div>
+        <div style="font-size:12.5px;color:#aeaa9e;font-family:'IBM Plex Mono',monospace;">NCC261938 · 07/16</div>
+      </div>
+      <div style="padding:20px;display:flex;flex-direction:column;gap:7px;">
+        <div style="font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#aeaa9e;">DOT Bond &amp; Permit</div>
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:27px;font-weight:600;color:#6fbf8c;">IN HAND</div>
+        <div style="font-size:12.5px;color:#aeaa9e;">No open items</div>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(490px,1fr));gap:0 56px;align-items:start;">
+
+      <div style="display:flex;flex-direction:column;">
+        <div style="display:flex;align-items:baseline;gap:12px;padding:26px 0 12px;border-bottom:2px solid #e9e7e0;">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;color:#e06a2b;">01</div>
+          <div style="font-size:15px;font-weight:700;letter-spacing:0.04em;text-transform:uppercase;color:#e9e7e0;">This Week's Priorities</div>
+        </div>
+        <div style="display:flex;gap:16px;padding:15px 0;border-bottom:1px solid #474c54;align-items:baseline;">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:#e06a2b;font-weight:600;min-width:22px;">1.</div>
+          <div style="display:flex;flex-direction:column;gap:3px;flex:1;min-width:0;">
+            <div style="font-size:14.5px;font-weight:600;color:#e9e7e0;">GC bid review meetings — Rycon, WIMCO, DooleyMack</div>
+            <div style="font-size:13px;color:#aeaa9e;">Friday 7/17 · all three sessions confirmed</div>
+          </div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;letter-spacing:0.08em;color:#e06a2b;white-space:nowrap;">THIS WEEK</div>
+        </div>
+        <div style="display:flex;gap:16px;padding:15px 0;border-bottom:1px solid #474c54;align-items:baseline;">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:#e06a2b;font-weight:600;min-width:22px;">2.</div>
+          <div style="display:flex;flex-direction:column;gap:3px;flex:1;min-width:0;">
+            <div style="font-size:14.5px;font-weight:600;color:#e9e7e0;">Complete GC selection and award recommendation</div>
+            <div style="font-size:13px;color:#aeaa9e;">Follows Friday reviews · decision target week of 7/20</div>
+          </div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;letter-spacing:0.08em;color:#e06a2b;white-space:nowrap;">THIS WEEK</div>
+        </div>
+        <div style="display:flex;gap:16px;padding:15px 0;border-bottom:1px solid #474c54;align-items:baseline;">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:#e06a2b;font-weight:600;min-width:22px;">3.</div>
+          <div style="display:flex;flex-direction:column;gap:3px;flex:1;min-width:0;">
+            <div style="font-size:14.5px;font-weight:600;color:#e9e7e0;">Evaluate and award CMT services</div>
+            <div style="font-size:13px;color:#aeaa9e;">Proposals in hand · align scope with selected GC schedule</div>
+          </div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;letter-spacing:0.08em;color:#e06a2b;white-space:nowrap;">THIS WEEK</div>
+        </div>
+        <div style="display:flex;gap:16px;padding:15px 0;border-bottom:1px solid #474c54;align-items:baseline;">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:#93907f;font-weight:600;min-width:22px;">4.</div>
+          <div style="display:flex;flex-direction:column;gap:3px;flex:1;min-width:0;">
+            <div style="font-size:14.5px;font-weight:600;color:#e9e7e0;">Check building permit progress</div>
+            <div style="font-size:13px;color:#aeaa9e;">Standing weekly follow-up until issued</div>
+          </div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;letter-spacing:0.08em;color:#93907f;white-space:nowrap;">RECURRING</div>
+        </div>
+        <div style="display:flex;gap:16px;padding:15px 0;border-bottom:1px solid #474c54;align-items:baseline;">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:#93907f;font-weight:600;min-width:22px;">5.</div>
+          <div style="display:flex;flex-direction:column;gap:3px;flex:1;min-width:0;">
+            <div style="font-size:14.5px;font-weight:600;color:#e9e7e0;">Prepare award and startup documents</div>
+            <div style="font-size:13px;color:#aeaa9e;">Templates staged · finalize immediately after GC selection</div>
+          </div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;letter-spacing:0.08em;color:#93907f;white-space:nowrap;">QUEUED</div>
+        </div>
+
+        <div style="display:flex;align-items:baseline;gap:12px;padding:34px 0 12px;border-bottom:2px solid #e9e7e0;">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;color:#e06a2b;">02</div>
+          <div style="font-size:15px;font-weight:700;letter-spacing:0.04em;text-transform:uppercase;color:#e9e7e0;">Action Items</div>
+        </div>
+        <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(80px,100px) minmax(96px,120px);gap:0 14px;padding:10px 0 8px;border-bottom:1px solid #e9e7e0;font-family:'IBM Plex Mono',monospace;font-size:10.5px;font-weight:600;letter-spacing:0.1em;color:#aeaa9e;">
+          <div>ACTION</div><div>DUE</div><div>STATUS</div>
+        </div>
+        <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(80px,100px) minmax(96px,120px);gap:0 14px;padding:13px 0;border-bottom:1px solid #474c54;font-size:14px;align-items:baseline;">
+          <div style="color:#e9e7e0;min-width:0;">Hold GC bid reviews — Rycon, WIMCO, DooleyMack</div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12.5px;color:#cfccc2;">Fri 07/17</div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;letter-spacing:0.06em;color:#e8b04a;">■ IN PROGRESS</div>
+        </div>
+        <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(80px,100px) minmax(96px,120px);gap:0 14px;padding:13px 0;border-bottom:1px solid #474c54;font-size:14px;align-items:baseline;">
+          <div style="color:#e9e7e0;min-width:0;">Issue GC award recommendation</div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12.5px;color:#cfccc2;">07/24</div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;letter-spacing:0.06em;color:#93907f;">□ NOT STARTED</div>
+        </div>
+        <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(80px,100px) minmax(96px,120px);gap:0 14px;padding:13px 0;border-bottom:1px solid #474c54;font-size:14px;align-items:baseline;">
+          <div style="color:#e9e7e0;min-width:0;">Score CMT proposals and award</div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12.5px;color:#cfccc2;">07/24</div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;letter-spacing:0.06em;color:#e8b04a;">■ IN PROGRESS</div>
+        </div>
+        <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(80px,100px) minmax(96px,120px);gap:0 14px;padding:13px 0;border-bottom:1px solid #474c54;font-size:14px;align-items:baseline;">
+          <div style="color:#e9e7e0;min-width:0;">Building permit status check — Hoke County</div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12.5px;color:#cfccc2;">07/22</div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;letter-spacing:0.06em;color:#93907f;">↻ RECURRING</div>
+        </div>
+        <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(80px,100px) minmax(96px,120px);gap:0 14px;padding:13px 0;border-bottom:1px solid #474c54;font-size:14px;align-items:baseline;">
+          <div style="color:#e9e7e0;min-width:0;">Draft award / startup document package</div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12.5px;color:#cfccc2;">Post-award</div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;letter-spacing:0.06em;color:#93907f;">□ QUEUED</div>
+        </div>
+        <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(80px,100px) minmax(96px,120px);gap:0 14px;padding:13px 0;border-bottom:1px solid #474c54;font-size:14px;align-items:baseline;">
+          <div style="color:#e9e7e0;min-width:0;">Schedule Duke Energy easement kickoff meeting</div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12.5px;color:#cfccc2;">Post-closing</div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;letter-spacing:0.06em;color:#e2604c;">■ WAITING</div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;">
+        <div style="display:flex;align-items:baseline;gap:12px;padding:26px 0 12px;border-bottom:2px solid #e9e7e0;">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;color:#e06a2b;">03</div>
+          <div style="font-size:15px;font-weight:700;letter-spacing:0.04em;text-transform:uppercase;color:#e9e7e0;">Risks &amp; Watch Items</div>
+        </div>
+        <div style="display:flex;gap:16px;padding:16px 0;border-bottom:1px solid #474c54;">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:700;letter-spacing:0.08em;color:#e2604c;min-width:44px;padding-top:2px;">HIGH</div>
+          <div style="display:flex;flex-direction:column;gap:4px;flex:1;min-width:0;">
+            <div style="font-size:14.5px;font-weight:600;color:#e9e7e0;">Land closing date remains TBD</div>
+            <div style="font-size:13px;color:#aeaa9e;line-height:1.55;">Gates the Duke Energy easement process and exposes the 8/24 construction start. Confirm closing timeline with seller's counsel this week.</div>
+          </div>
+        </div>
+        <sc-if value="{{ showMediumRisks }}" hint-placeholder-val="{{ true }}">
+        <div style="display:flex;gap:16px;padding:16px 0;border-bottom:1px solid #474c54;">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:700;letter-spacing:0.08em;color:#e8b04a;min-width:44px;padding-top:2px;">MED</div>
+          <div style="display:flex;flex-direction:column;gap:4px;flex:1;min-width:0;">
+            <div style="font-size:14.5px;font-weight:600;color:#e9e7e0;">Duke Energy easement tied to closing</div>
+            <div style="font-size:13px;color:#aeaa9e;line-height:1.55;">Easement process cannot start until land closes; utility lead times could pressure power delivery. Pre-stage the meeting request so it goes out the day closing is confirmed.</div>
+          </div>
+        </div>
+        <div style="display:flex;gap:16px;padding:16px 0;border-bottom:1px solid #474c54;">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:700;letter-spacing:0.08em;color:#e8b04a;min-width:44px;padding-top:2px;">MED</div>
+          <div style="display:flex;flex-direction:column;gap:4px;flex:1;min-width:0;">
+            <div style="font-size:14.5px;font-weight:600;color:#e9e7e0;">Building permit not yet issued</div>
+            <div style="font-size:13px;color:#aeaa9e;line-height:1.55;">Required ahead of 8/24 mobilization. Continue weekly checks with Hoke County; escalate if no movement by 8/1.</div>
+          </div>
+        </div>
+        </sc-if>
+
+        <div style="display:flex;align-items:baseline;gap:12px;padding:34px 0 12px;border-bottom:2px solid #e9e7e0;">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;color:#e06a2b;">04</div>
+          <div style="font-size:15px;font-weight:700;letter-spacing:0.04em;text-transform:uppercase;color:#e9e7e0;">Decisions Needed</div>
+        </div>
+        <div style="display:flex;gap:14px;padding:14px 0;border-bottom:1px solid #474c54;align-items:baseline;">
+          <div style="width:8px;height:8px;background:#e8b04a;flex-shrink:0;position:relative;top:-1px;"></div>
+          <div style="font-size:14px;color:#e9e7e0;line-height:1.5;flex:1;min-width:0;">GC award — decision expected week of 7/20 after Friday's reviews</div>
+        </div>
+        <div style="display:flex;gap:14px;padding:14px 0;border-bottom:1px solid #474c54;align-items:baseline;">
+          <div style="width:8px;height:8px;background:#e8b04a;flex-shrink:0;position:relative;top:-1px;"></div>
+          <div style="font-size:14px;color:#e9e7e0;line-height:1.5;flex:1;min-width:0;">CMT firm award — align with GC selection</div>
+        </div>
+        <div style="display:flex;gap:14px;padding:14px 0;border-bottom:1px solid #474c54;align-items:baseline;">
+          <div style="width:8px;height:8px;background:#e2604c;flex-shrink:0;position:relative;top:-1px;"></div>
+          <div style="font-size:14px;color:#e9e7e0;line-height:1.5;flex:1;min-width:0;">Land closing date — needed from ownership to release easement and startup sequence</div>
+        </div>
+
+        <sc-if value="{{ showActivity }}" hint-placeholder-val="{{ true }}">
+        <div style="display:flex;align-items:baseline;gap:12px;padding:34px 0 12px;border-bottom:2px solid #e9e7e0;">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;color:#e06a2b;">05</div>
+          <div style="font-size:15px;font-weight:700;letter-spacing:0.04em;text-transform:uppercase;color:#e9e7e0;">Recent Activity</div>
+        </div>
+        <div style="display:flex;gap:16px;padding:13px 0;border-bottom:1px solid #474c54;align-items:baseline;">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#e06a2b;min-width:52px;font-weight:600;">Jul 16</div>
+          <div style="font-size:13.5px;color:#cfccc2;line-height:1.5;flex:1;min-width:0;">NCDEQ Construction Stormwater COC issued — <span style="font-family:'IBM Plex Mono',monospace;font-size:12.5px;color:#e9e7e0;">NCC261938</span></div>
+        </div>
+        <div style="display:flex;gap:16px;padding:13px 0;border-bottom:1px solid #474c54;align-items:baseline;">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#e06a2b;min-width:52px;font-weight:600;">Jul 14</div>
+          <div style="font-size:13.5px;color:#cfccc2;line-height:1.5;flex:1;min-width:0;">Schedule II documents sent and approved by email</div>
+        </div>
+        <div style="display:flex;gap:16px;padding:13px 0;border-bottom:1px solid #474c54;align-items:baseline;">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#e06a2b;min-width:52px;font-weight:600;">Jul 13</div>
+          <div style="font-size:13.5px;color:#cfccc2;line-height:1.5;flex:1;min-width:0;">GC bid review meetings confirmed for Fri 7/17 — Rycon, WIMCO, DooleyMack</div>
+        </div>
+        <div style="display:flex;gap:16px;padding:13px 0;border-bottom:1px solid #474c54;align-items:baseline;">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#93907f;min-width:52px;font-weight:600;">Prior</div>
+          <div style="font-size:13.5px;color:#cfccc2;line-height:1.5;flex:1;min-width:0;">DOT bond and DOT permit confirmed in hand</div>
+        </div>
+        </sc-if>
+      </div>
+    </div>
+
+    <div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:center;margin-top:44px;padding-top:14px;border-top:3px solid #e9e7e0;">
+      <div style="font-size:12.5px;color:#aeaa9e;">TSC #3300 · Weekly Executive Project Summary</div>
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#aeaa9e;">NEXT UPDATE 07/23/26</div>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;showActivity&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Sections&quot;},&quot;riskFilter&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;default&quot;:&quot;All risks&quot;,&quot;options&quot;:[&quot;All risks&quot;,&quot;High only&quot;],&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Sections&quot;}}">
+class Component extends DCLogic {
+  renderVals() {
+    const start = new Date(2026, 7, 24);
+    const now = new Date();
+    const days = Math.max(0, Math.ceil((start - new Date(now.getFullYear(), now.getMonth(), now.getDate())) / 86400000));
+    return {
+      daysToStart: days,
+      showActivity: this.props.showActivity ?? true,
+      showMediumRisks: (this.props.riskFilter ?? 'All risks') !== 'High only'
+    };
+  }
+}
+</script>
+</body>
+</html>
